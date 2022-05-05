@@ -1,21 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="">Contato</a>
-            <a href="html/cadastro.html">Cadastro</a>
-            <a href="">Login</a>
-            <a href="">Mais</a>
-        </nav>
-        <h1>Sano</h1>
-        <span>Version 12.3.1</span>
-    </header>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="css/preset/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="imagens/Sem título.png" type="image/x-icon">
+
+        <title>Mundo Sano</title>
+    </head>
+
+    <body>
+        <header>
+            <!-- menu -->
+            <nav id="content">
+                <img id="logo" src="imagens/Sem título.png" alt="">
+                <div class="dropdown">
+                    <div class="dropbtn"><span>Início</span> <img src="imagens/seta-branca.png" alt=""></div>
+                    <div class="dropdown-content">
+                        <a href="html/register.html">Cadastro</a>
+                        <a href="html/Login.html">Entrar</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropbtn">RPG <img src="imagens/seta-branca.png"></div>
+                    <div class="dropdown-content">
+                        <a href="">Personagens </a>
+                        <a href="">Historia</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropbtn">Mais <img src="imagens/seta-branca.png"> </div>
+                    <div class="dropdown-content">
+                        <a href="">Contato</a>
+                        <a href="">Forum</a>
+                        <a href="">Sobre</a>
+                        <a href="">Planos</a>
+                        <a href="">Desenvolvedores</a>
+                    </div>
+                </div>
+                <div id="login">
+                    <a href="html/Login.html">Entrar</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- outra coisa -->
+            <div id="sinopse">
+                <h3>Role Playing Game</h3>
+                <h1>Mundo Sano</h1>
+                <div id="slider">
+                    <div class="selected">
+                        <p>sano é um mundo de aventura</p>
+                    </div>
+                    <div>
+                        <p>venha desfrutar de sano</p>
+                    </div>
+                    <div>
+                        <p>o jogo é legal</p>
+                    </div>
+                    <div>
+                        <p>maravilhoso</p>
+                    </div>
+                </div>
+            </div>
+            <div id="acount">
+                <span>Olá, é sua primeira vez por aqui?</span>
+                <div ><a href="">Register</a></div>
+            </div>
+            <span id="version">version 10.3.9</span>
+        </header>
+        <footer>
+        </footer>
+        <script src="js/script.js"></script>
+        <script src="js/boostrap/bootstrap.bundle.min.js"></script>
+        <script src="js/boostrap/bootstrap.min.js"></script>
+    </body>
+
 </html>
